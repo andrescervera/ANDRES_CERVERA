@@ -1,0 +1,22 @@
+creamos entorno linux
+docker create -it --name unix ubuntu:latest
+docker start unix
+docker exec -it unix /bin/bash
+apt update
+apt install vim
+
+DOCKER ABIERTO
+
+2.
+ejecutamos vi script.sh (crea el script)
+
+3.
+pulsamos a para modo edición y copiamos el código del script con botón derecho. Después ESC y :wq para guardar.
+
+4. 
+ejecutamos chmod 777 script.sh para dar permisos
+
+5. 
+./script.sh para ejecutar
+
+6. con ls accedes para comprobar si se han creado los directorios del script
