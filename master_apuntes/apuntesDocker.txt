@@ -1,9 +1,0 @@
-Arrancar siempre Docker Desktop antes
-- Comandos:
-docker run loquesea --> descarga las imágenes que corresponda
-docker ps -a --> para saber lo que está corriendo
-docker stop loquesea --> para parar el que quieras
-docker run -it loquesea --> entras en el entorno
-exit --> salir
-docker cheat sheet --> página web
-docker images --> cargar imágenes
