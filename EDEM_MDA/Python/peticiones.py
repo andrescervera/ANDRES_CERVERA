@@ -1,5 +1,5 @@
 import requests
-from peticionChistes import URL
+from EDEM_MDA.Python.peticionChistes import URL
 
 def generar_usuario(url: str):
     respuesta = requests.get(url)

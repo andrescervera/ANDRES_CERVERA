@@ -1,5 +1,5 @@
-from librerias.funciones.basicas import saludar
-from librerias.funciones.peticiones import generar_usuario
+from basicas import saludar
+from peticiones import generar_usuario
 import requests
 from requests.models import Response
 
@@ -20,3 +20,11 @@ if estado == 200:
     #obtenemos chiste de la respuesta accediendo a la clave 'value'
     frase_chuck: str = datos['value']
     print(f'El chiste: {frase_chuck}')
+
+#bucle
+a = 1
+while a < 101:
+  print(f"{a}")
+  a += 1
+
+
